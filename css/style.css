@@ -90,7 +90,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #453E4F;
   background-color: #EEEFDA;
-  /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
 }
 
 ul,
@@ -209,8 +208,7 @@ footer {
   text-align: left;
 }
 
-/* set the margins & paddings for each section - these are only a suggestion :) */
-/* setting all margins to zero removes all browser added default margins */
+
 h1,
 h2,
 h3,
@@ -224,7 +222,7 @@ p {
   margin: 0;
 }
 
-/* then can set the margin & paddings for any element */
+
 header {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -609,8 +607,7 @@ footer .social-icons li i:hover {
       font-size: 1rem;
     }
   
-    /* element margins */
-    /* the list element have 20px of bottom margin already */
+   
     header {
       padding-top: 60px;
       padding-bottom: 80px;
@@ -697,7 +694,7 @@ footer .social-icons li i:hover {
     }
   
     header nav {
-      /* keep if using hamburger menu */
+     
       display: flex;
       justify-content: center;
       width: 100%;
@@ -705,7 +702,6 @@ footer .social-icons li i:hover {
     }
   
     header nav ul {
-      /* keep if using hamburger menu */
       display: flex;
       justify-content: space-between;
       width: 80%;
@@ -803,7 +799,7 @@ footer .social-icons li i:hover {
   
   @media only screen and (min-width:1024px) {
   
-    /* added for landscape tablets and iPad Pro */
+   
     .content-wrapper {
       max-width: 900px;
     }
@@ -860,8 +856,7 @@ footer .social-icons li i:hover {
       font-size: 1rem;
     }
   
-    /* element margins */
-    /* the list element have 20px of bottom margin already */
+   
     header {
       padding-top: 80px;
       padding-bottom: 140px;
@@ -1002,14 +997,14 @@ footer .social-icons li i:hover {
  
   
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+ 
 }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+ 
 }
 
 /* ==========================================================================
