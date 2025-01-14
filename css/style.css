@@ -87,12 +87,11 @@ textarea {
 
 /* General Styles */
 
-
 body {
   font-size: 1em;
-  font-family: 'Open Sans', sans-serif;
-  color: #453E4F;
-  background-color: #EEEFDA;
+  font-family: "Open Sans", sans-serif;
+  color: #453e4f;
+  background-color: #eeefda;
 }
 
 ul,
@@ -103,21 +102,21 @@ ol {
 }
 
 a {
-  color: #EEEFDA;;
+  color: #eeefda;
   text-decoration: none;
 }
 
 h1 {
-  color: #453E4F;
-  font-family: 'Alike', serif;
+  color: #453e4f;
+  font-family: "Alike", serif;
   font-size: 1.75rem;
   line-height: 1.5;
-  width: 100%
+  width: 100%;
 }
 
 h2 {
-  color: #453E4F;
-  font-family: 'Alike', serif;
+  color: #453e4f;
+  font-family: "Alike", serif;
   font-size: 1.25rem;
   line-height: 1.5;
   width: 100%;
@@ -141,10 +140,8 @@ h5 {
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
-  color: #453E4F;
+  color: #453e4f;
 }
-
-
 
 .about-info h4,
 .contact-title {
@@ -155,9 +152,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Alike', serif;
+  font-family: "Alike", serif;
   line-height: 1.5;
-  width: 100%
+  width: 100%;
 }
 
 p,
@@ -182,7 +179,6 @@ address {
   font-style: normal;
 }
 
-
 /* Structural Styles */
 header,
 #projects,
@@ -205,7 +201,6 @@ footer {
   text-align: left;
 }
 
-
 h1,
 h2,
 h3,
@@ -218,7 +213,6 @@ h6 {
 p {
   margin: 0;
 }
-
 
 header {
   padding-top: 30px;
@@ -298,43 +292,40 @@ figure {
   margin: 0 0 40px 0;
 }
 
-
 /* -------------------- Base Header Styles -------------------- */
 
 header {
-  background-color: #152A3E;
+  background-color: #152a3e;
 }
 
-
-
 header nav ul li {
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #152A3E;
-  color: #453E4F;
+  background-color: #152a3e;
+  color: #453e4f;
   padding: 10px 10px;
   border-radius: 30px;
 }
 
 header nav ul li:hover {
-  background-color:#F8D697;
+  background-color: #f8d697;
 }
 
 header a:hover {
-  color:#152A3E;
+  color: #152a3e;
 }
 
 nav #contact-link {
-  background-color: #E9B14C;
-  color: #152A3E;
+  background-color: #e9b14c;
+  color: #152a3e;
   padding: 10px 10px;
   border-radius: 30px;
 }
 
 nav #contact-link:hover {
-  background-color: #F8D697;
+  background-color: #f8d697;
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -346,14 +337,13 @@ nav ul {
 
 header h1 {
   width: 100%;
-  color: #CAC691;
+  color: #cac691;
 }
 
 header h2 {
   width: 100%;
-  color: #EEEFDA;
+  color: #eeefda;
 }
-
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -396,27 +386,27 @@ header h2 {
 }
 
 .project-link {
-  background-color: #453E4F;
-  padding: .75rem 3.75rem;
+  background-color: #453e4f;
+  padding: 0.75rem 3.75rem;
   border-radius: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .project-link:hover {
-  background-color: #CAC4D1;
-  color: #453E4F;
+  background-color: #cac4d1;
+  color: #453e4f;
 }
 
 #skills {
-  background-color: #152A3E;
+  background-color: #152a3e;
 }
 
 .skills-header {
-  color: #F8D697;
+  color: #f8d697;
 }
 
 .developer-header {
-  color:#F8D697;
+  color: #f8d697;
 }
 
 #skills h4 {
@@ -426,7 +416,7 @@ header h2 {
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #E9B14C;
+  background-color: #e9b14c;
   padding: 15px 0;
   margin: 20px 0;
 }
@@ -452,8 +442,8 @@ header h2 {
 
 /* -------------------- Base Footer Styles -------------------- */
 footer {
-  background-color: #152A3E;
-  color: #EEEFDA;
+  background-color: #152a3e;
+  color: #eeefda;
 }
 
 footer .contact-wrapper {
@@ -496,15 +486,15 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #EEEFDA;
+  color: #eeefda;
 }
 
 footer .social-icons li i:hover {
-  color: #F8D697;
+  color: #f8d697;
 }
 
 footer .emailhover a:hover {
-  color: #F8D697;
+  color: #f8d697;
 }
 
 /* ==========================================================================
@@ -588,437 +578,426 @@ footer .emailhover a:hover {
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.    Modify as content requires.
    ========================================================================== */
-   @media only screen and (min-width:768px) {
-    /*Tablet styles here*/
-  
-    /* General styles */
-    .content-wrapper {
-      max-width: 640px;
-    }
-  
-    /* font styles */
-    h1 {
-      font-size: 2.5rem;
-    }
-  
-    h2 {
-      font-size: 1.5rem;
-    }
-  
-    h3 {
-      font-size: 2rem;
-    }
-  
-    h4 {
-      font-size: 1.25rem;
-    }
-  
-    h5 {
-      font-size: 1.5rem;
-    }
-  
-    header nav ul li {
-      font-size: 1rem;
-    }
-  
-   
-    header {
-      padding-top: 60px;
-      padding-bottom: 80px;
-    }
-  
-    nav {
-      margin: 0 0 80px 0;
-    }
-  
-    /*#projects */
-    #projects {
-      padding-top: 80px;
-    }
-  
-    #skills {
-      padding-bottom: 80px;
-    }
-  
-    footer {
-      padding: 140px 0;
-    }
-  
-    #about {
-      padding: 80px 0;
-    }
-  
-    footer {
-      padding-bottom: 80px;
-    }
-  
-    h2 {
-      margin-top: 80px;
-    }
-  
-    .portfolio-header {
-      margin: 0 0 60px 0;
-    }
-  
-    .project-description {
-      margin: 0 0 30px 0;
-    }
-  
-    .project-link {
-      margin: 40px 0 60px 0;
-    }
-  
-    #skills {
-      padding-top: 80px;
-    }
-  
-    .skills-header {
-      margin-bottom: 40px;
-    }
-  
-    #skills h4 {
-      margin: 40px 0 20px 0;
-    }
-  
-    .about-info h3 {
-      margin: 80px 0;
-    }
-  
-    .about-info h4 {
-      margin: 0 0 60px 0;
-    }
-  
-    .about-text {
-      margin: 0 0 30px 0;
-    }
-  
-    .contact-info {
-      margin: 80px 0;
-    }
-  
-    .contact-title {
-      margin: 0 0 30px 0;
-    }
-  
-    /* header */
-    header .content-wrapper {
-      display: flex;
-      justify-content: center;
-      flex-flow: row wrap;
-    }
-  
-    header nav {
-     
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      text-transform: uppercase;
-    }
-  
-    header nav ul {
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-    }
-  
-    .home-title {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-    }
-  
-    .home-title h2 {
-      max-width: 80%;
-    }
-  
-    /* portfolio */
-    .portfolio-wrapper {
-      justify-content: space-around;
-    }
-  
-    .home-portfolio-piece {
-      width: 45%;
-      align-items: center;
-    }
-  
-    .project-description {
-      width: 95%;
-    }
-  
-    .language-wrapper,
-    .tool-wrapper {
-      display: flex;
-      justify-content: space-evenly;
-      width: 100%;
-      flex-flow: row wrap;
-      text-transform: uppercase;
-    }
-  
-    .skill,
-    .tool {
-      /*  width: auto; */
-      width: 45%;
-    }
-  
-    .language-wrapper p,
-    .tool-wrapper p {
-      padding: 15px 0;
-    }
-  
-    /* about */
-    .about-content-wrapper {
-      display: flex;
-      justify-content: center;
-      flex-flow: row wrap;
-    }
-  
-    #about figure {
-      width: 60%;
-    }
-  
-    .about-info h4 {
-      text-align: left;
-    }
-  
-    /* Footer */
-    .contact-wrapper {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    footer .contact-info {
-      width: 33%;
-    }
-  
-    footer ul {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-      width: 100%;
-    }
-  
-    footer .social-icons {
-      width: 12.5em;
-    }
-  
-    footer .social-icons li i {
-      font-size: 2rem;
-    }
-  
-    footer .copyright {
-      width: 100%;
-    }
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
+
+  /* General styles */
+  .content-wrapper {
+    max-width: 640px;
   }
-  
-  @media only screen and (min-width:1024px) {
-  
-   
-    .content-wrapper {
-      max-width: 900px;
-    }
-  
-    .about-info h3 {
-      font-size: 3.5rem;
-    }
+
+  /* font styles */
+  h1 {
+    font-size: 2.5rem;
   }
-  
-  @media only screen and (min-width:1200px) {
-  
-    /*Desktop styles here*/
-    .content-wrapper {
-      max-width: 1450px;
-    }
-  
-    /* font styles */
-    h1 {
-      font-size: 4rem;
-    }
-  
-    h2 {
-      font-size: 2rem;
-    }
-  
-    h3 {
-      font-size: 2.5rem;
-    }
-  
-    h4 {
-      font-size: 1.25rem;
-    }
-  
-    h5 {
-      font-size: 1.5rem;
-    }
-  
-    .about-info h3 {
-      font-size: 3.75rem;
-      text-align: left;
-    }
-  
-    .about-info h4 {
-      font-size: 2rem;
-    }
-  
-    p {
-      font-size: 1.25rem;
-    }
-  
-    .project-link,
-    .language-wrapper p,
-    .tool-wrapper p {
-      font-size: 1rem;
-    }
-  
-   
-    header {
-      padding-top: 80px;
-      padding-bottom: 140px;
-    }
-  
-    nav {
-      margin-bottom: 80px;
-    }
-  
-    #projects {
-      padding-top: 80px;
-    }
-  
-    #skills {
-      padding-bottom: 120px;
-    }
-  
-    #about {
-      padding-top: 80px;
-      padding-bottom: 80px;
-    }
-  
-    footer {
-      padding: 140px 0 140px 0;
-    }
-  
-    h2 {
-      margin: 40px 0 0 0;
-    }
-  
-    .portfolio-header {
-      margin: 0 0 60px 0;
-    }
-  
-    .project-description {
-      margin: 0 0 30px 0;
-    }
-  
-    .project-link {
-      margin: 40px 0 80px 0;
-    }
-  
-    #skills {
-      padding-top: 120px;
-    }
-  
-    #skills .content-wrapper {
-      max-width: 900px;
-    }
-  
-    .skills-header {
-      margin-bottom: 40px;
-    }
-  
-    .about-info h3 {
-      margin: 0;
-    }
-  
-    .about-info h4 {
-      margin: 40px 0;
-    }
-  
-    .about-text {
-      margin: 0 0 30px 0;
-    }
-  
-    .contact-info {
-      margin: 80px 0 80px 0;
-    }
-  
-    .contact-title {
-      margin: 0 0 30px 0;
-    }
-  
-    /* header */
-    header .content-wrapper {
-      justify-content: flex-end;
-    }
-  
-    header nav {
-      justify-content: flex-end;
-      width: 45%;
-    }
-  
-    nav ul li a {
-      padding: 10px 10px;
-    }
-  
-    nav ul li a:hover,
-    nav #contact-link:hover {
-      background-color: #F8D697;
-      color: #453E4F;
-      padding: 10px 10px;
-      border-radius: 30px;
-    }
-  
-    .home-title {
-      max-width: 95%;
-    }
-  
-    .home-title h2 {
-      max-width: 70%;
-    }
-  
-    /* portfolio */
-    .home-portfolio-piece {
-      width: 30%;
-    }
-  
-    /* skills */
-    .skill,
-    .tool {
-      width: 30%;
-    }
-  
-    /* about */
-    .about-content-wrapper {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    #about figure {
-      width: 35%;
-      margin-top: 0;
-    }
-  
-    .about-info {
-      width: 58%;
-    }
-  
-    /* contact */
-    footer .content-wrapper {
-      max-width: 70%;
-    }
-  
-  }   
-    
- 
-  
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  header nav ul li {
+    font-size: 1rem;
+  }
+
+  header {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  nav {
+    margin: 0 0 80px 0;
+  }
+
+  /*#projects */
+  #projects {
+    padding-top: 80px;
+  }
+
+  #skills {
+    padding-bottom: 80px;
+  }
+
+  footer {
+    padding: 140px 0;
+  }
+
+  #about {
+    padding: 80px 0;
+  }
+
+  footer {
+    padding-bottom: 80px;
+  }
+
+  h2 {
+    margin-top: 80px;
+  }
+
+  .portfolio-header {
+    margin: 0 0 60px 0;
+  }
+
+  .project-description {
+    margin: 0 0 30px 0;
+  }
+
+  .project-link {
+    margin: 40px 0 60px 0;
+  }
+
+  #skills {
+    padding-top: 80px;
+  }
+
+  .skills-header {
+    margin-bottom: 40px;
+  }
+
+  #skills h4 {
+    margin: 40px 0 20px 0;
+  }
+
+  .about-info h3 {
+    margin: 80px 0;
+  }
+
+  .about-info h4 {
+    margin: 0 0 60px 0;
+  }
+
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+
+  .contact-info {
+    margin: 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
+
+  /* header */
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .home-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .home-title h2 {
+    max-width: 80%;
+  }
+
+  /* portfolio */
+  .portfolio-wrapper {
+    justify-content: space-around;
+  }
+
+  .home-portfolio-piece {
+    width: 45%;
+    align-items: center;
+  }
+
+  .project-description {
+    width: 95%;
+  }
+
+  .language-wrapper,
+  .tool-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+  }
+
+  .skill,
+  .tool {
+    /*  width: auto; */
+    width: 45%;
+  }
+
+  .language-wrapper p,
+  .tool-wrapper p {
+    padding: 15px 0;
+  }
+
+  /* about */
+  .about-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  #about figure {
+    width: 60%;
+  }
+
+  .about-info h4 {
+    text-align: left;
+  }
+
+  /* Footer */
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .contact-info {
+    width: 33%;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+  }
+
+  footer .social-icons li i {
+    font-size: 2rem;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-wrapper {
+    max-width: 900px;
+  }
+
+  .about-info h3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+  .content-wrapper {
+    max-width: 1450px;
+  }
+
+  /* font styles */
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .about-info h3 {
+    font-size: 3.75rem;
+    text-align: left;
+  }
+
+  .about-info h4 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .project-link,
+  .language-wrapper p,
+  .tool-wrapper p {
+    font-size: 1rem;
+  }
+
+  header {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+
+  nav {
+    margin-bottom: 80px;
+  }
+
+  #projects {
+    padding-top: 80px;
+  }
+
+  #skills {
+    padding-bottom: 120px;
+  }
+
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  footer {
+    padding: 140px 0 140px 0;
+  }
+
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
+  .portfolio-header {
+    margin: 0 0 60px 0;
+  }
+
+  .project-description {
+    margin: 0 0 30px 0;
+  }
+
+  .project-link {
+    margin: 40px 0 80px 0;
+  }
+
+  #skills {
+    padding-top: 120px;
+  }
+
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+
+  .skills-header {
+    margin-bottom: 40px;
+  }
+
+  .about-info h3 {
+    margin: 0;
+  }
+
+  .about-info h4 {
+    margin: 40px 0;
+  }
+
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+
+  .contact-info {
+    margin: 80px 0 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
+
+  /* header */
+  header .content-wrapper {
+    justify-content: flex-end;
+  }
+
+  header nav {
+    justify-content: flex-end;
+    width: 45%;
+  }
+
+  nav ul li a {
+    padding: 10px 10px;
+  }
+
+  nav ul li a:hover,
+  nav #contact-link:hover {
+    background-color: #f8d697;
+    color: #453e4f;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+
+  .home-title {
+    max-width: 95%;
+  }
+
+  .home-title h2 {
+    max-width: 70%;
+  }
+
+  /* portfolio */
+  .home-portfolio-piece {
+    width: 30%;
+  }
+
+  /* skills */
+  .skill,
+  .tool {
+    width: 30%;
+  }
+
+  /* about */
+  .about-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #about figure {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .about-info {
+    width: 58%;
+  }
+
+  /* contact */
+  footer .content-wrapper {
+    max-width: 70%;
+  }
+}
+
 @media only screen and (min-width: 35em) {
- 
 }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
- 
 }
 
 /* ==========================================================================
@@ -1087,4 +1066,3 @@ footer .emailhover a:hover {
     page-break-after: avoid;
   }
 }
-
